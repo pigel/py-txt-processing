@@ -2,7 +2,7 @@
 '''
 Script for convert file (input_file)
 To further open in Exel as CSV (separator ;)
-Exemple run $./nkm.py <input_file>
+Exemple run $./journal.py <input_file>
 '''
 import sys
 fr_name = sys.argv[1]
