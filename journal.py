@@ -5,7 +5,7 @@ To further open in Exel as CSV (separator ;)
 Exemple run $./journal.py <input_file>
 '''
 import sys
-fr_name = sys.argv[0]
+fr_name = sys.argv[1]
 fw_name = 'table_' + fr_name
 fr = open(fr_name, 'r')
 fw = open(fw_name, 'w')
